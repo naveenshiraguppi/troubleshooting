@@ -1,0 +1,9 @@
+POST /webservices/v1/geocodeservice/geocodeservice.svc HTTP/1.1
+User-Agent: curl/7.39.0
+Host: dev.virtualearth.net
+Accept: */*
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://dev.virtualearth.net/webservices/v1/geocode/contracts/IGeocodeService/ReverseGeocode"
+Content-Length: 878
+
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><ReverseGeocode xmlns="http://dev.virtualearth.net/webservices/v1/geocode/contracts"><request><ns1:Credentials xmlns:ns1="http://dev.virtualearth.net/webservices/v1/common"><ns1:ApplicationId>Aq1QPoKBKDlQiaWwyelP6cborOQhPIESPZWnP1HNk_bZ5c6BuGLamptciyuGD_-n</ns1:ApplicationId></ns1:Credentials><ns2:Location xmlns:ns2="http://dev.virtualearth.net/webservices/v1/geocode"><ns3:Latitude xmlns:ns3="http://dev.virtualearth.net/webservices/v1/common">-37.802867</ns3:Latitude><ns4:Longitude xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common">144.950338</ns4:Longitude></ns2:Location></request></ReverseGeocode></soapenv:Body></soapenv:Envelope>
